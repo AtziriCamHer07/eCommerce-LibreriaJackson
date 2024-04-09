@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Tilt Neon", sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+/* ----------------------------------------------------------------------------- Primera barra de navegacion ------------------ */
+
+.nav{
+    display: flex;
+    background-color: #5A85A9;
+    width: 100%;
+    height: 110px;
+    padding: 5px;
+}
+
+.nav-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.elemento-nav{
+    background-color: #5A85A9;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.container-logos{
+    display: flex;
+    padding: 30px 20px;
+}
+
+.sep-logos{
+    padding: 0 30px;
+}
+
+/* ----------------------------------------------------------------------------- Segunda barra de navegacion ------------------ */
+
+.snd-nav{
+    display: flex;
+    background-color: #ffffff;
+    width: 100%;
+    height: 110px;
+    padding: 5px;
+}
+
+.regresar{
+    right: 40px;
+    top: 15px;
+    padding: 20px 50px;
+}
