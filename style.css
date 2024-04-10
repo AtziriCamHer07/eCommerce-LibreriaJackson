@@ -6,17 +6,27 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: "Tilt Neon", sans-serif;
-    font-size: 20px;
+    font-size: 23px;
     letter-spacing: 3px;
+    background-color: #f2f3f4;
 }
 
-/* ----------------------------------------------------------------------------- Primera barra de navegacion ------------------ */
+.regresar{
+    right: 40px;
+    top: 15px;
+    padding: 20px 50px;
+}
+
+/* ------------------------------------------------------------------------------------------------ Index ------------------ */
+
+/* ----------------------------------- 1er nav ------------------ */
 
 .nav{
+    position: fixed;
     display: flex;
-    background-color: #5A85A9;
+    background-color: #466d1d;
     width: 100%;
-    height: 110px;
+    height: 80px;
     padding: 5px;
 }
 
@@ -24,10 +34,11 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: #466d1d;
 }
 
 .elemento-nav{
-    background-color: #5A85A9;
+    background-color: #466d1d;
     color: #ffffff;
     font-weight: 600;
     font-size: 25px;
@@ -35,25 +46,139 @@
 
 .container-logos{
     display: flex;
-    padding: 30px 20px;
+    padding: 20px;
+    background-color: #466d1d;
+    list-style: none;
+    cursor: pointer;
 }
 
 .sep-logos{
     padding: 0 30px;
+    background-color: #466d1d;
 }
 
-/* ----------------------------------------------------------------------------- Segunda barra de navegacion ------------------ */
+#btn-menu{
+    display: none;
+}
 
-.snd-nav{
-    display: flex;
-    background-color: #ffffff;
+.container-menu-desplegable{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
     width: 100%;
-    height: 110px;
-    padding: 5px;
+    height: 80px;
+    top: 0;
+    left:  0;
+    transition: all 500ms ease;
 }
 
-.regresar{
-    right: 40px;
-    top: 15px;
-    padding: 20px 50px;
+.cont-menu-desplegable{
+    width: 100%;
+    max-width: 250px;
+    background: #1c1c1c;
+    height: 100vh;
+}
+
+.cont-menu-desplegable-nav{
+    transform: translateY(15%);
+}
+
+.cont-menu-desplegable-nav-a{
+    background: #1c1c1c;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #ffffff;
+    border-left: 5px solid transparent;
+    transition: all 500ms ease;
+}
+/* ----------------------------------- 2do nav ------------------ */
+
+.fix{
+    width: 100%;
+    height: 85px;
+    background-color: #efb810;
+}
+.nav-snd{
+    width: 100%;
+    height: 45px;
+    background-color: #728c69;
+}
+
+.nav-snd-container{
+    display: flex;
+    justify-content: center;
+    background-color: #728c69;
+}
+
+.elemento-nav-snd{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px  50px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #728c69;
+}
+
+/* ------------------------------------------------------------------------------------------------ Ubicacion ------------------ */
+
+.ub{
+    display: flex;
+    justify-content: center;
+}
+
+.ub-container{
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    padding: 0 0 30px 0;
+}
+
+.ub-titulo{
+    font-weight: bold;
+    font-size: 35px;
+    padding: 30px 0 20px 0;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    width: 75%;
+}
+
+.contactanos-container{
+    padding: 20px;
+    width: 100%;
+}
+
+.nosotros-container{
+    padding: 20px;
+    width: 100%;
+}
+
+.contact-titulo{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 15px;
+    background-color: #597d35;
+    color: #ffffff;
+}
+
+.contact-txt{
+    font-size: 15px;
+}
+
+.padding-datos-contacto{
+    padding: 15px;
+}
+
+.padding-inputs-contacto{
+    padding: 15px 0 0 15px;
+}
+
+.leyendas-txt{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
 }

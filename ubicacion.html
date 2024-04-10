@@ -4,18 +4,141 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EJ > Ubicacion</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div>
-        <a class="regresar"  href="index.html">
-            <img src="img/logos/flecha-izquierda.png" height="60px">
-        </a>
-    </div>
+    <nav class="nav"> <!------------------------------------------------------------------------ Nav -->
+        <div>
+            <img src="img/Jackson.png" height="70px">
+        </div>
+        
+        <div class="nav-container">
+            <a href="login.html" class="elemento-nav">
+                Inicio de sesión
+            </a>
+        </div>
 
-    <div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d65253377.14050754!2d-140.4058646033353!3d3.410995761355749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53531a77b3d00ddb%3A0xc84571227bee6862!2sJackson%20Hole%20Book%20Trader!5e0!3m2!1ses-419!2smx!4v1712692782335!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+        <div class="container-logos">
+            <a href="login.html">
+                <img class="sep-logos" src="img/logos/us.png" height="30px">
+            </a>
+            
+            <a href="compra.html">
+                <img class="sep-logos" src="img/logos/ca.png" height="30px">
+            </a>
+
+            <a href="index.html">
+                <img class="sep-logos" src="img/logos/re.png" height="30px">
+            </a>
+        </div>
+    </nav>
+
+    <div class="fix"></div>
+
+    <section> <!------------------------------------------------------------------------ Mapa -->
+        <div class="ub">
+            <p class="ub-titulo">
+                ¿Ya conocías nuestra tienda física?
+            </p>
+        </div>
+    
+        <div class="ub">
+            <div class="ub-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d65253377.14050754!2d-140.4058646033353!3d3.410995761355749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53531a77b3d00ddb%3A0xc84571227bee6862!2sJackson%20Hole%20Book%20Trader!5e0!3m2!1ses-419!2smx!4v1712692782335!5m2!1ses-419!2smx" width="1000" height="420" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section> <!------------------------------------------------------------------------ Contactanos -->
+        <div class="ub">
+            <div class="contact-container">
+                <div class="contactanos-container">
+                    <p class="contact-titulo">
+                        Contacte con nosotros
+                    </p>
+
+                    <div class="padding-datos-contacto">
+                        <p>
+                            Nombre completo*
+                        </p>
+
+                        <div class="padding-inputs-contacto">
+                            <input required/>
+                        </div>
+                    </div>
+
+                    <div class="padding-datos-contacto">
+
+                        <p>
+                            E-mail*
+                        </p>
+
+                        <div class="padding-inputs-contacto">
+                            <input required/>
+                        </div>
+                    </div>
+
+                    <div class="padding-datos-contacto">
+                        <p>
+                            Comentarios*
+                        </p>
+
+                        <div class="padding-inputs-contacto">
+                            <textarea rows="3" cols="41" id="Comentario" name="Comentario" required></textarea>
+                        </div>
+                    </div>
+
+                    <p class="leyendas-txt">
+                        Los campos marcados (*) son obligatorios.
+                    </p>
+                </div>
+
+                <div class="nosotros-container">
+                    <p class="contact-titulo">
+                        Datos de contacto
+                    </p>
+
+                    <div class="padding-datos-contacto">
+                        <p>
+                            <img src="img/logos/ub-b.png" height="20px">
+    
+                            Dirección
+                        </p>
+    
+                        <p class="contact-txt">
+                            970 W Broadway A, Jackson, WY 83001, Estados Unidos
+                        </p>
+                    </div>
+                    
+                    <div class="padding-datos-contacto">
+                        <p>
+                            <img src="img/logos/ca-b.png" height="20px">
+    
+                            Teléfono
+                        </p>
+    
+                        <p class="contact-txt">
+                            +1 307-734-6001
+                        </p>
+                    </div>
+
+                    <div class="padding-datos-contacto">
+                        <p>
+                            <img src="img/logos/em-b.png" height="20px">
+    
+                            E-mail
+                        </p>
+    
+                        <p class="contact-txt">
+                            libreria.jackson@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
 </body>
 
 </html>
