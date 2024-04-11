@@ -253,6 +253,11 @@ https://saposyprincesas.elmundo.es/ocio-en-casa/lectura-libros-ninos/libros-prem
     font-size: 25px;
 }
 
+.position-portada-ex{
+    display: flex;
+    justify-content: center;
+}
+
 /* ----------------------------------- Seccion de spam ------------------ */
 
 .favoritos-container{
@@ -471,6 +476,10 @@ https://saposyprincesas.elmundo.es/ocio-en-casa/lectura-libros-ninos/libros-prem
 
 .login-pad{
     padding: 15px;
+}
+
+.login-pad-cc{
+    padding: 10px;
 }
 
 .dis{
