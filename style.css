@@ -219,6 +219,10 @@ https://saposyprincesas.elmundo.es/ocio-en-casa/lectura-libros-ninos/libros-prem
     background-color: #efb810;
 }
 
+.hov:hover{
+    opacity: 0.5;
+}
+
 /* ----------------------------------- Seccion de spam ------------------ */
 
 .spam-container{
@@ -353,7 +357,7 @@ https://saposyprincesas.elmundo.es/ocio-en-casa/lectura-libros-ninos/libros-prem
 }
 
 .padding-datos-contacto{
-    padding: 15px 20px;
+    padding: 13px 20px;
 }
 
 .padding-inputs-contacto{
@@ -469,7 +473,7 @@ https://saposyprincesas.elmundo.es/ocio-en-casa/lectura-libros-ninos/libros-prem
 
 .position-btn-end{
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: center;
     width: 100%;
     padding: 30px 50px;
 }
@@ -501,4 +505,56 @@ https://saposyprincesas.elmundo.es/ocio-en-casa/lectura-libros-ninos/libros-prem
 .ccc-container{
     padding: 20px;
     width: 100%;
+}
+
+/* ------------------------------------------------------------------------------------------------ Verano ------------------ */
+
+
+.position-portada-e{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dis-center{
+    display: flex;
+    justify-content: center;
+}
+
+.sep-elementos-verano-sec{
+    display: flex;
+    font-size: 25px;
+    color: #466d1d;
+}
+
+.sep-elementos-verano{
+    display: flex;
+    font-size: 25px;
+    color: #efb810;
+}
+
+.center-log-estrella{
+    display: flex;
+    justify-content: center;
+}
+
+.pad-estrella{
+    padding-left: 30px;
+}
+
+.verano-container{
+    display: flex;
+    justify-content: center;
+    height: 440px;
+}
+
+.ver-container{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.txt-verano{
+    display: flex;
+    text-align: justify;
+    font-size: 15px;
 }
