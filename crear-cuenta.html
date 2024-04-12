@@ -96,7 +96,7 @@
                         </p>
 
                         <div class="padding-inputs-contacto">
-                            <input size="40" required/>
+                            <input size="40" id="nombre" required/>
                         </div>
                     </div>
 
@@ -107,7 +107,7 @@
                         </p>
 
                         <div class="padding-inputs-contacto">
-                            <input size="40" required/>
+                            <input size="40" id="numero" required/>
                         </div>
                     </div>
 
@@ -118,7 +118,7 @@
                         </p>
 
                         <div class="padding-inputs-contacto">
-                            <input type="password" size="40" required/>
+                            <input type="password" size="40" id="contraseña" required/>
                         </div>
                     </div>
                 </div>
@@ -131,7 +131,7 @@
                         </p>
 
                         <div class="padding-inputs-contacto">
-                            <input size="40" required/>
+                            <input size="40" id="email" required/>
                         </div>
                     </div>
 
@@ -142,7 +142,7 @@
                         </p>
 
                         <div class="padding-inputs-contacto">
-                            <input size="40" required/>
+                            <input size="40" id="domicilio" required/>
                         </div>
                     </div>
 
@@ -153,14 +153,14 @@
                         </p>
 
                         <div class="padding-inputs-contacto">
-                            <input type="password" size="40" required/>
+                            <input type="password" size="40" id="confirmacion" required/>
                         </div>
                     </div>
 
                     <div class="padding-datos-contacto">
 
                         <div class="padding-inputs-contacto">
-                            <input class="boton-submit-txt" type="submit" size="40" required/>
+                            <input class="boton-submit-txt" type="submit" size="40" onclick="crearCuenta()" required/>
                         </div>
                     </div>
                 </div>
@@ -175,6 +175,9 @@
             </div>
         </div>
     </section>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 
 </html>

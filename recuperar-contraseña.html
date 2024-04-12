@@ -92,12 +92,12 @@
     
                     <br>
                     
-                    <input size="40" placeholder=""  required/>
+                    <input size="40" placeholder="" type="email" id="correo" required/>
                 </div>
 
                 <div>
                     <p class="position-btn-end">
-                        <input class="boton-submit-txt" type="submit" size="10">
+                        <input class="boton-submit-txt" type="submit" onclick="recuperarContraseña()" size="10">
                     </p>
                 </div>
     
@@ -108,12 +108,12 @@
 
                     <br>
                     
-                    <input size="40" placeholder=""  required/>
+                    <input size="40" placeholder="" id="verificacion" required/>
                 </div>
 
                 <div>
                     <p class="position-btn-end">
-                        <input class="boton-submit-txt" type="submit" size="10">
+                        <input class="boton-submit-txt" type="submit" size="10" onclick="recuperarContraseña()">
                     </p>
                 </div>
 
@@ -126,6 +126,9 @@
             </div>
         </div>
     </section>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 
 </html>
