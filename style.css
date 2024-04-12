@@ -1,21 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 
-/*
-https://saposyprincesas.elmundo.es/ocio-en-casa/lectura-libros-ninos/libros-premiados-2023/
-*/
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
     font-family: "Tilt Neon", sans-serif;
+    text-decoration: none;
     font-size: 23px;
     letter-spacing: 3px;
     background-color: #f2f3f4;
 }
 
-/* ----------------------------------- Espacios vacios por detrás del fixed + margen ------------------ */
+/* ----------------------------------- Clases generales (margenes para el fixed/btnRegresar) ------------------ */
 
 .fix{
     width: 100%;
@@ -35,7 +31,6 @@ https://saposyprincesas.elmundo.es/ocio-en-casa/lectura-libros-ninos/libros-prem
     top: 130px;
     padding: 20px 50px;
 }
-
 
 /* ------------------------------------------------------------------------------------------------ Index ------------------ */
 
@@ -89,7 +84,7 @@ https://saposyprincesas.elmundo.es/ocio-en-casa/lectura-libros-ninos/libros-prem
     display: none;
 }
 
-/* ----------------------------------- Nav desplegable ------------------ */
+/* ----------------------------------- Nav desplegable -------- */
 
 .container-menu-desplegable{
     position: absolute;
@@ -175,7 +170,7 @@ https://saposyprincesas.elmundo.es/ocio-en-casa/lectura-libros-ninos/libros-prem
     color: #1c1c1c;
 }
 
-/* ----------------------------------- Seccion de noticias ------------------ */
+/* ----------------------------------- Seccion de noticias --------- */
 
 .noticia-container{
     display: flex;
@@ -223,7 +218,63 @@ https://saposyprincesas.elmundo.es/ocio-en-casa/lectura-libros-ninos/libros-prem
     opacity: 0.5;
 }
 
-/* ----------------------------------- Seccion de spam ------------------ */
+
+/* ---------------------------- Html de los libros premiados ------ */
+
+.position-portada-e{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hover-portadas:hover{
+    box-shadow: 0 0 13px 13px #728c69;
+}
+
+.dis-center{
+    display: flex;
+    justify-content: center;
+}
+
+.sep-elementos-verano-sec{
+    display: flex;
+    font-size: 20px;
+    color: #1c1c1c;
+}
+
+.sep-elementos-verano{
+    display: flex;
+    font-size: 25px;
+    color: #efb810;
+}
+
+.center-log-estrella{
+    display: flex;
+    justify-content: center;
+}
+
+.pad-estrella{
+    padding-left: 30px;
+}
+
+.verano-container{
+    display: flex;
+    justify-content: center;
+    height: 420px;
+}
+
+.ver-container{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.txt-verano{
+    display: flex;
+    text-align: justify;
+    font-size: 18px;
+}
+
+/* ----------------------------------- Seccion de spam ---------- */
 
 .spam-container{
     display: flex;
@@ -262,7 +313,7 @@ https://saposyprincesas.elmundo.es/ocio-en-casa/lectura-libros-ninos/libros-prem
     justify-content: center;
 }
 
-/* ----------------------------------- Seccion de spam ------------------ */
+/* ----------------------------------- Favoritos de la casa ---------- */
 
 .favoritos-container{
     display: flex;
@@ -297,6 +348,7 @@ https://saposyprincesas.elmundo.es/ocio-en-casa/lectura-libros-ninos/libros-prem
     display: flex;
     justify-content: center;
     font-size: 15px;
+    padding: 10px 0;
 }
 
 .precios-favs{
@@ -383,7 +435,7 @@ https://saposyprincesas.elmundo.es/ocio-en-casa/lectura-libros-ninos/libros-prem
     padding: 5px 50px;
 }
 
-/* ------------------------------------------------------------------------------------------------ Ubicacion ------------------ */
+/* ------------------------------------------------------------------------------------------------ Footer ------------------ */
 
 .footer{
     display: flex;
@@ -496,7 +548,6 @@ https://saposyprincesas.elmundo.es/ocio-en-casa/lectura-libros-ninos/libros-prem
 }
 
 .cc-container{
-    background-color: aqua;
     display: flex;
     justify-content: center;
     width: 75%;
@@ -507,58 +558,59 @@ https://saposyprincesas.elmundo.es/ocio-en-casa/lectura-libros-ninos/libros-prem
     width: 100%;
 }
 
-/* ------------------------------------------------------------------------------------------------ Verano ------------------ */
+/* ------------------------------------------------------------------------------------------------ Accion ------------------ */
 
-
-.position-portada-e{
+.ac{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    height: 530px;
 }
 
-.hover-portadas:hover{
-    box-shadow: 0 0 13px 13px #728c69;
+.accion-container{
+    display: flex;
+    justify-content: center;
+    width: 90%;
 }
 
-.dis-center{
+.accion-portadas{
+    padding: 10px;
+    width: 240px;
+    height: 400px;
+}
+
+.display-center{
     display: flex;
     justify-content: center;
 }
 
-.sep-elementos-verano-sec{
+.btn-comprar-accion{
     display: flex;
-    font-size: 20px;
+    width: 90%;
+    justify-content: center;
+    background-color: #efb810;
+}
+
+.compra-accion{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+    background-color: #efb810;
+    text-decoration: none;
     color: #1c1c1c;
 }
 
-.sep-elementos-verano{
-    display: flex;
-    font-size: 25px;
-    color: #efb810;
+.compra-accion:hover{
+    color: #728c69;
 }
 
-.center-log-estrella{
-    display: flex;
-    justify-content: center;
-}
-
-.pad-estrella{
-    padding-left: 30px;
-}
-
-.verano-container{
+.titulos-accion{
+    font-size: 17px;
     display: flex;
     justify-content: center;
-    height: 420px;
 }
 
-.ver-container{
-    display: flex;
-    justify-content: center;
-    width: 70%;
-}
-
-.txt-verano{
-    display: flex;
-    text-align: justify;
-    font-size: 18px;
+.hov-accion:hover{
+    box-shadow: 0 0 13px 13px #ccc;
 }
