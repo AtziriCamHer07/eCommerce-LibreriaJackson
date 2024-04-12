@@ -102,11 +102,11 @@
 
                     <div class="padding-datos-contacto">
                         <p>
-                            Nombre completo*
+                            Nombre / nickname*
                         </p>
 
                         <div class="padding-inputs-contacto">
-                            <input size="40" required/>
+                            <input size="40" id="nickname" required/>
                         </div>
                     </div>
 
@@ -117,7 +117,7 @@
                         </p>
 
                         <div class="padding-inputs-contacto">
-                            <input size="40" required/>
+                            <input size="40" placeholder="ejemplo@gmail.com" id="mail" required/>
                         </div>
                     </div>
 
@@ -140,7 +140,7 @@
 
                     <div class="padding-datos-contacto">
                         <div class="padding-inputs-contacto">
-                            <input class="boton-submit-txt" type="submit">
+                            <input class="boton-submit-txt" type="submit" onclick="contactanos()">
                         </div>
                     </div>
                 </div>
@@ -301,6 +301,9 @@
             </p>
         </div>
     </div>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 
 </html>

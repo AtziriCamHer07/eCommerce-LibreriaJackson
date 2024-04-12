@@ -1,11 +1,13 @@
 
-/* --------------------------------------------------------------------------------- Login > Index --------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------ Login > Index --------------------- */
 function login() {
     let user = document.getElementById("usuario").value;
     let password = document.getElementById("contraseña").value;
 
     if(user == "" || password == ""){
         swal('¡Ha ocurrido un error!', 'No se admiten espacios en blanco', 'error');  /* Libreria para modificar el diseño de la alerta */
+    } else if(user.length < 5 || password.length < 8){
+        swal('¡Ha ocurrido un error!', 'Longitud no admitida', 'error');  /* Libreria para modificar el diseño de la alerta */
     } else {
         window.location="index.html";
     }
@@ -37,7 +39,21 @@ function crearCuenta() {
     }
 }
 
-/* --------------------------------------------------------------------------------- Libros > Carrito --------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------ Ubicación --------------------- */
+
+function contactanos() {
+    let nickname = document.getElementById("nickname").value;
+    let mail = document.getElementById("mail").value;
+    let comentario = document.getElementById("Comentario").value;
+
+    if(nickname == "" || mail == "" || comentario == ""){
+        swal('¡Ha ocurrido un error!', 'Rellena los campos indicados', 'error');  /* Libreria para modificar el diseño de la alerta */
+    } else {
+        swal('¡Mensaje en camino!');
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------- Libros > Carrito --------------------- */
 function compra(){
     let num1 = document.getElementById("1");
     let num2 = document.getElementById("2");
