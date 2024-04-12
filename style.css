@@ -515,6 +515,10 @@ https://saposyprincesas.elmundo.es/ocio-en-casa/lectura-libros-ninos/libros-prem
     justify-content: flex-end;
 }
 
+.hover-portadas:hover{
+    box-shadow: 0 0 13px 13px #728c69;
+}
+
 .dis-center{
     display: flex;
     justify-content: center;
@@ -522,8 +526,8 @@ https://saposyprincesas.elmundo.es/ocio-en-casa/lectura-libros-ninos/libros-prem
 
 .sep-elementos-verano-sec{
     display: flex;
-    font-size: 25px;
-    color: #466d1d;
+    font-size: 20px;
+    color: #1c1c1c;
 }
 
 .sep-elementos-verano{
@@ -544,7 +548,7 @@ https://saposyprincesas.elmundo.es/ocio-en-casa/lectura-libros-ninos/libros-prem
 .verano-container{
     display: flex;
     justify-content: center;
-    height: 440px;
+    height: 420px;
 }
 
 .ver-container{
@@ -556,5 +560,5 @@ https://saposyprincesas.elmundo.es/ocio-en-casa/lectura-libros-ninos/libros-prem
 .txt-verano{
     display: flex;
     text-align: justify;
-    font-size: 15px;
+    font-size: 18px;
 }
