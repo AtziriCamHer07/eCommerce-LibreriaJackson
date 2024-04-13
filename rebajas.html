@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Libreria Jackson</title>
+    <title>EJ > Rebajas</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <nav>
+        <a class="regresar"  href="index.html">
+            <img src="img/Copia de Jackson (2).png" height="70px">
+        </a>
+    </nav>
+
     <nav class="nav"> <!------------------------------------------------------------------------ Nav -->
         <div class="container-barra">
             <a href="menu-secundario.html">
@@ -72,217 +77,192 @@
     
     <div class="sep-fix"></div>
 
-    <section> <!------------------------------------------------------------------------------- Noticia de premiaciones -->
-        <div class="ub">
-            <div class="noticia-container">
-                <div class="noti-container">
-                    <p class="noticia-eslogan">
-                        ¡Conoce las premiaciones 2023 en el género juvenil!
-                        <br>
+    <section>
+        <div class="rebajas-container">
+            <div>
+                <p class="reb-titulo">
+                    > ¡Aprovecha las rebajas especiales!
+                </p>
+            </div>
+        </div>
 
-                        <a href="rebajas.html" class="noti2-container">Rebajas especiales en nominaciones previas/ganadoras, ¡visítalas aquí!
-                        </a>
-                    </p>
+        <br>
 
-                    <div class="portadas-pad">
-                        <a href="verano.html" class="portadas-bg">
-                            <img class="hov" src="img/portadas/El-verano-en-que-llegaron-los-lobos.jpg" height="230px">
-                        </a>
-                    </div>
+        <div class="cont-temporizador">
+            <div class="bloque">
+                <div class="dias" id="dias">00</div>
+                <p class="txt-cronometro">
+                    Dias 
+                </p>
+            </div>
 
-                    <div class="portadas-pad">
-                        <a href="persona.html" class="portadas-bg">
-                            <img class="hov" src="img/portadas/Primera-persona-del-singular.jpg" height="230px">
-                        </a>
-                    </div>
+            <div class="bloque">
+                <div class="horas" id="horas">18</div>
+                <p class="txt-cronometro">
+                    Horas 
+                </p>
+            </div>
 
-                    <div class="portadas-pad">
-                        <a href="hijas.html" class="portadas-bg">
-                            <img class="hov" src="img/portadas/las-hijas-de-la-criada.jpg" height="230px">
-                        </a>
-                    </div>
-                </div>
+            <div class="bloque">
+                <div class="minutos" id="minutos">34</div>
+                <p class="txt-cronometro">
+                    Minutos 
+                </p>
+            </div>
+
+            <div class="bloque">
+                <div class="segundos" id="segundos">48</div>
+                <p class="txt-cronometro">
+                    Segundos 
+                </p>
             </div>
         </div>
     </section>
 
-    <section> <!------------------------------------------------------------------------------- Spam -->
+    <section> <!------------------------------------------------------------------------------- Catalogo de rebajas -->
         <div class="ub">
-            <div class="spam-container">
-                <div class="sp-container">
-                    <p class="sp-titulo">
-                        Compra en Jackson y obtén los mejores beneficios:
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div>
-            <div class="spam-container">
-                <div class="sp-container">
-                    <div class="sp-atributos">
-                        <p class="sp-txt">
-                            <img src="img/logos/enviar.png" height="25px">
-
-                            ㅤEnvíos gratis a todo México
-                        </p>
-
-                        <p class="sp-txt">
-                            <img src="img/logos/tiempo.png" height="25px">
-
-                            ㅤPlazos máximos de una semana 
-                        </p>
-
-                        <p class="sp-txt">
-                            <img src="img/logos/descuento.png" height="25px">
-
-                            ㅤOfertas exclusivas
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <br>
-    <hr>
-
-    <section> <!------------------------------------------------------------------------------- Favoritos de la casa -->
-        <div class="ub">
-            <div class="favoritos-container">
-                <div class="fav-container">
-                    <p class="sp-titulo">
-                        Libros favoritos de la casa
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="ub">
-            <div class="favoritos-container">
+            <div class="reb-container">
                 <div class="fav-container">
                     <div class="fav-cenm">
                         <div class="favs-portadas">
-                            <img src="img/portadas/romper.webp" height="300px">
+                            <img src="img/portadas/ofertas/1.webp" height="300px">
                             <p class="padding-favs">
-                                It end with us
+                                Retorno ayer
                             </p>
 
-                            <p class="txt-favs">
-                                <img src="img/logos/libro.png" height="20px">
+                            <p class="precios-favs">
+                                <img src="img/logos/descuento (1).png" height="30px">
                                 
-                                ㅤTapa dura
+                                ㅤ$79.00
                             </p>
+                            <br>
 
-                            <div class="padding-favs">
-                                <p class="precios-favs">
-                                    $329.00
-                                </p>
+                            <div class="display-center">
+                                <div class="btn-comprar-accion">
+                                    <a href="#" class="compra-accion" id="1" onclick="compra()">
+                                        Agregar al carrito
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     
                     <div class="fav-cenm">
                         <div class="favs-portadas">
-                            <img src="img/portadas/48908475.jpg" height="300px">
+                            <img src="img/portadas/ofertas/2.webp" height="300px">
                             <p class="padding-favs">
-                                Antes de ella
+                                Los inocentes
                             </p>
 
-                            <p class="txt-favs">
-                                <img src="img/logos/herramienta-de-audio-con-altavoz.png" height="20px">
+                            <p class="precios-favs">
+                                <img src="img/logos/descuento (1).png" height="30px">
                                 
-                                ㅤAudiolibro
+                                ㅤ$84.00
                             </p>
+                            <br>
 
-                            <div class="padding-favs">
-                                <p class="precios-favs">
-                                    $199.00
-                                </p>
+                            <div class="display-center">
+                                <div class="btn-comprar-accion">
+                                    <a href="#" class="compra-accion" id="1" onclick="compra()">
+                                        Agregar al carrito
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     
                     <div class="fav-cenm">
                         <div class="favs-portadas">
-                            <img src="img/portadas/portada-boulevard.-libro-2-edicion-revisada-por-la-autora.jpg" height="300px">
+                            <img src="img/portadas/ofertas/3.webp" height="300px">
                             <p class="padding-favs">
-                                Después de él
+                                Gato ... libros
                             </p>
 
-                            <p class="txt-favs">
-                                <img src="img/logos/libro-abierto.png" height="20px">
+                            <p class="precios-favs">
+                                <img src="img/logos/descuento (1).png" height="30px">
                                 
-                                ㅤTapa blanda
+                                ㅤ$249.00
                             </p>
+                            <br>
 
-                            <div class="padding-favs">
-                                <p class="precios-favs">
-                                    $249.00
-                                </p>
+                            <div class="display-center">
+                                <div class="btn-comprar-accion">
+                                    <a href="#" class="compra-accion" id="1" onclick="compra()">
+                                        Agregar al carrito
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="fav-cenm">
                         <div class="favs-portadas">
-                            <img src="img/portadas/boulevard-libro-1.jpg" height="300px">
+                            <img src="img/portadas/ofertas/4.webp" height="300px">
                             <p class="padding-favs">
-                                Boulevard
+                                Libro Salvaje
                             </p>
 
-                            <p class="txt-favs">
-                                <img src="img/logos/libro-abierto.png" height="20px">
+                            <p class="precios-favs">
+                                <img src="img/logos/descuento (1).png" height="30px">
                                 
-                                ㅤTapa blanda
+                                ㅤ$76.00
                             </p>
+                            <br>
 
-                            <div class="padding-favs">
-                                <p class="precios-favs">
-                                    $299.00
-                                </p>
+                            <div class="display-center">
+                                <div class="btn-comprar-accion">
+                                    <a href="#" class="compra-accion" id="1" onclick="compra()">
+                                        Agregar al carrito
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="fav-cenm">
                         <div class="favs-portadas">
-                            <img src="img/portadas/img20220725_14342119_800x.webp" height="300px">
+                            <img src="img/portadas/ofertas/5.webp" height="300px">
                             <p class="padding-favs">
-                                Sigue mi voz
+                                Canción
                             </p>
 
-                            <p class="txt-favs">
-                                <img src="img/logos/libro.png" height="20px">
+                            <p class="precios-favs">
+                                <img src="img/logos/descuento (1).png" height="30px">
                                 
-                                ㅤTapa dura
+                                ㅤ$309.00
                             </p>
+                            <br>
 
-                            <div class="padding-favs">
-                                <p class="precios-favs">
-                                    $249.00
-                                </p>
+                            <div class="display-center">
+                                <div class="btn-comprar-accion">
+                                    <a href="#" class="compra-accion" id="1" onclick="compra()">
+                                        Agregar al carrito
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="fav-cenm">
                         <div class="favs-portadas">
-                            <img src="img/portadas/porreferencia.jpg" height="300px">
+                            <img src="img/portadas/ofertas/6.webp" height="300px">
                             <p class="padding-favs">
-                                Strange
+                                Biblioteca
                             </p>
 
-                            <p class="txt-favs">
-                                <img src="img/logos/libro-abierto.png" height="20px">
+                            <p class="precios-favs">
+                                <img src="img/logos/descuento (1).png" height="30px">
                                 
-                                ㅤTapa blanda
+                                ㅤ$291.00
                             </p>
+                            <br>
 
-                            <div class="padding-favs">
-                                <p class="precios-favs">
-                                    $249.00
-                                </p>
+                            <div class="display-center">
+                                <div class="btn-comprar-accion">
+                                    <a href="#" class="compra-accion" id="1" onclick="compra()">
+                                        Agregar al carrito
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -290,10 +270,6 @@
             </div>
         </div>
     </section>
-
-    <br>
-    <br>
-    <hr>
 
     <div class="pad-minifoo">
         <div class="footer-mini-amarillo"></div>
@@ -396,6 +372,7 @@
             </p>
         </div>
     </div>
-</body>
 
+    <script src="script.js"></script>
+</body>
 </html>
