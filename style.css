@@ -57,6 +57,7 @@
     color: #ffffff;
     font-weight: 600;
     font-size: 25px;
+    padding-top: 20px;
 }
 
 .container-logos{
@@ -78,10 +79,6 @@
 .sep-logos{
     padding: 0 30px;
     background-color: #466d1d;
-}
-
-#btn-menu{
-    display: none;
 }
 
 /* ----------------------------------- Nav desplegable -------- */
